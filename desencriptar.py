@@ -13,6 +13,7 @@ def desencriptar_mensaje(mensaje_encriptado: str) -> str:
     - numero_letra_en_palabra es la posición de la letra en la palabra.
     
     Luego se debe buscar en el libro la letra correspondiente a cada string y concatenar todas las letras para formar el mensaje original.
+    Los espacios del mensaje original se representan con un punto y coma (;).
     
     Recibe:
         mensaje_encriptado (str): El mensaje que se va a desencriptar.

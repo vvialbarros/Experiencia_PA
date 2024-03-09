@@ -12,6 +12,7 @@ def encriptar_mensaje(mensaje: str) -> str:
     - numero_letra_en_palabra es la posición de la letra en la palabra.
     
     Luego se concatenan todos los strings de cada letra para formar el mensaje encriptado.
+    Los espacios entre palabras se representan con un punto y coma (;).
     
     Recibe:
         mensaje (str): El mensaje que se va a encriptar.
