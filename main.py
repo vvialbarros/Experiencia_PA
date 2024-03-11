@@ -1,4 +1,4 @@
-from solucion_juegos import cachipun, adivinar_numero, reaccion_rapida, suma_rapida, memoria
+from juegos import cachipun, adivinar_numero, reaccion_rapida, suma_rapida, memoria
 
 def menu():
     juegos = {
@@ -25,4 +25,5 @@ def menu():
         else:
             print("Opción no válida. Por favor, elige una opción del 1 al 6.")
 
-menu()
+if __name__ == "__main__":
+    menu()
