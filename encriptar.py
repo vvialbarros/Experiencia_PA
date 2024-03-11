@@ -13,6 +13,14 @@ def encriptar_mensaje(mensaje: str) -> str:
     
     Luego se concatenan todos los strings de cada letra para formar el mensaje encriptado.
     Los espacios entre palabras se representan con un punto y coma (;).
+    Los numeros parten desde 0.
+    
+    Por ejemplo, la frase "Los patos dominarán el mundo" se encripta como:
+    12,0,0,0,1,11,0,11,6;0,1,2,0,1,3,0,1,5,0,1,11,0,11,6;0,2,0,0,1,11,0,1,7,0,3,1,0,1,9,0,1,3,0,1,4,3,6,6,0,1,9;0,1,1,0,0,1;0,1,7,0,6,4,0,1,9,0,2,0,0,1,11
+    Linea 12, palabra 0, letra 0 -> L
+    Linea 0, palabra 1, letra 11 -> o
+    Linea 0, palabra 11, letra 6 -> s
+    ; -> espacio
     
     Recibe:
         mensaje (str): El mensaje que se va a encriptar.
