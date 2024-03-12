@@ -1,4 +1,8 @@
-from juegos import cachipun, adivinar_numero, reaccion_rapida, suma_rapida, memoria
+from cachipun import cachipun
+from adivinar_numero import adivinar_numero
+from reaccion_rapida import reaccion_rapida
+from suma_rapida import suma_rapida
+from memoria import memoria
 
 def menu():
     juegos = {
