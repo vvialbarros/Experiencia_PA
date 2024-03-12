@@ -1,5 +1,3 @@
-import random
-
 def adivinar_numero():
     """
     Esta función representa el juego de adivinar un número.

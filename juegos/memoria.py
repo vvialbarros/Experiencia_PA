@@ -1,7 +1,3 @@
-import random
-import time
-
-
 def memoria():
     """
     Esta función representa el juego de memoria.

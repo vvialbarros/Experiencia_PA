@@ -1,5 +1,3 @@
-import random
-
 def cachipun():
     """
     Esta función representa el juego de cachipun.
