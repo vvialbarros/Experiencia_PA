@@ -5,6 +5,6 @@ def adivinar_numero():
     if jugador == numero_generado:
         print('Adivinaste!')
     else:
-        print('No adivinaste.')
+        print(f'No adivinaste, el numero era {numero_generado}.')
     
     pass
